@@ -17,6 +17,7 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
+
         ServerAddress serverAddress=new ServerAddress("47.92.36.72",27017);
         List<ServerAddress> addrs=new ArrayList<>();
         addrs.add(serverAddress);
